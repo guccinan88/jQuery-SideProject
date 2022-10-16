@@ -1,0 +1,9 @@
+$(function(){
+    $('#bg').hide();
+    $('#click').click(()=>{
+        $('#bg').fadeIn(300);
+    });
+    $('#ok').click(()=>{
+        $('#bg').fadeOut(300);
+    });
+})
